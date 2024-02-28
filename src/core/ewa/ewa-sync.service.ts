@@ -13,7 +13,7 @@ import { exerciseResolver } from "./resolvers/exercise.resolver";
 import { ExercisesService } from "../../components/exercise/exercises.service";
 
 @Injectable()
-export class EwaSyncService implements OnModuleInit {
+export class EwaSyncService {
 
   constructor(
     protected readonly ewaService: EwaService,
@@ -24,10 +24,6 @@ export class EwaSyncService implements OnModuleInit {
     protected readonly exercisesService: ExercisesService,
   ) {
     //
-  }
-
-  onModuleInit(): any {
-    this.sync();
   }
 
   async sync() {

@@ -7,11 +7,11 @@ interface CoursesCommandOptions {
 }
 
 @Command({
-  name: 'courses',
+  name: 'ewa:sync',
   description: '',
 })
-export class CoursesCommand extends CommandRunner {
-  protected logService = new Logger(CoursesCommand.name)
+export class EwaSyncCommand extends CommandRunner {
+  protected logService = new Logger(EwaSyncCommand.name)
 
   constructor(
     protected readonly ewaSyncService: EwaSyncService,
