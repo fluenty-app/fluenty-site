@@ -5,4 +5,4 @@ export const phraseResolver = (phrase) => {
     sentence: phrase.origin,
     translation: phrase.localizedTranslation,
   };
-}
+};

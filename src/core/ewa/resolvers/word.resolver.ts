@@ -8,4 +8,4 @@ export const wordResolver = (word) => {
     transcription: word.transcription,
     examples: word.examples,
   };
-}
+};

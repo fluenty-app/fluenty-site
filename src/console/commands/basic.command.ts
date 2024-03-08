@@ -1,5 +1,5 @@
 import { Command, CommandRunner, Option } from 'nest-commander';
-import { Logger } from "@nestjs/common";
+import { Logger } from '@nestjs/common';
 
 interface BasicCommandOptions {
   string?: string;
@@ -12,18 +12,18 @@ interface BasicCommandOptions {
   description: 'A parameter parse',
 })
 export class BasicCommand extends CommandRunner {
-  protected logService = new Logger('logger')
+  protected logService = new Logger('logger');
 
   constructor() {
-    console.log('Basic Construct')
-    super()
+    console.log('Basic Construct');
+    super();
   }
 
   async run(
     passedParam: string[],
     options?: BasicCommandOptions,
   ): Promise<void> {
-    console.log('Basic Run')
+    console.log('Basic Run');
   }
 
   @Option({

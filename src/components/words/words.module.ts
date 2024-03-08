@@ -1,7 +1,7 @@
-import { Module } from "@nestjs/common";
-import { MongooseModule } from "@nestjs/mongoose";
-import { Word, WordSchema } from "./schemas/word.schema";
-import { WordsService } from "./words.service";
+import { Module } from '@nestjs/common';
+import { MongooseModule } from '@nestjs/mongoose';
+import { Word, WordSchema } from './schemas/word.schema';
+import { WordsService } from './words.service';
 
 
 @Module({

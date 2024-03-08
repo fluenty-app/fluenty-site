@@ -9,4 +9,4 @@ export const exerciseResolver = (exerciseData, course, lesson) => {
     course: course._id,
     lesson: lesson._id,
   };
-}
+};

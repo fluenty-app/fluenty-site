@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule, MongooseModuleOptions } from '@nestjs/mongoose';
-import { ConfigService } from "@nestjs/config";
-import { MongoDatabaseConfig } from "../config/database.config";
+import { ConfigService } from '@nestjs/config';
+import { MongoDatabaseConfig } from '../config/database.config';
 
 @Module({
   imports: [
@@ -15,10 +15,10 @@ import { MongoDatabaseConfig } from "../config/database.config";
           dbName: config.database,
           user: config.user,
           pass: config.password,
-        }
+        };
       },
       inject: [ConfigService],
-    })
+    }),
   ],
   controllers: [],
   providers: [],

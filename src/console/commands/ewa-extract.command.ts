@@ -1,6 +1,6 @@
 import { Command, CommandRunner } from 'nest-commander';
-import { Logger } from "@nestjs/common";
-import { EwaExtractService } from "../../core/ewa/ewa-extract.service";
+import { Logger } from '@nestjs/common';
+import { EwaExtractService } from '../../core/ewa/ewa-extract.service';
 
 interface CoursesCommandOptions {
   //
@@ -11,7 +11,7 @@ interface CoursesCommandOptions {
   description: '',
 })
 export class EwaExractCommand extends CommandRunner {
-  protected logService = new Logger(EwaExractCommand.name)
+  protected logService = new Logger(EwaExractCommand.name);
 
   constructor(
     protected readonly ewaExtractService: EwaExtractService,

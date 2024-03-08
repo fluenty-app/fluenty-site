@@ -1,6 +1,6 @@
 import { Command, CommandRunner } from 'nest-commander';
-import { Logger } from "@nestjs/common";
-import { EwaSyncService } from "../../core/ewa/ewa-sync.service";
+import { Logger } from '@nestjs/common';
+import { EwaSyncService } from '../../core/ewa/ewa-sync.service';
 
 interface CoursesCommandOptions {
   //
@@ -11,7 +11,7 @@ interface CoursesCommandOptions {
   description: '',
 })
 export class EwaSyncCommand extends CommandRunner {
-  protected logService = new Logger(EwaSyncCommand.name)
+  protected logService = new Logger(EwaSyncCommand.name);
 
   constructor(
     protected readonly ewaSyncService: EwaSyncService,

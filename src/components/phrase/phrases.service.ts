@@ -1,7 +1,7 @@
-import { Injectable } from "@nestjs/common";
-import { Model } from "mongoose";
-import { InjectModel } from "@nestjs/mongoose";
-import { Phrase, PhraseDocument } from "./schemas/phrase.schema";
+import { Injectable } from '@nestjs/common';
+import { Model } from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+import { Phrase, PhraseDocument } from './schemas/phrase.schema';
 
 @Injectable()
 export class PhrasesService {
@@ -15,11 +15,11 @@ export class PhrasesService {
     await this.phrasesModel.updateOne(
       {originId: originId},
       data,
-      {upsert: true}
+      {upsert: true},
     );
 
     return this.phrasesModel.findOne(
-      {originId: originId}
+      {originId: originId},
     );
   }
 }

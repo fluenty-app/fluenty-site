@@ -1,5 +1,5 @@
-import { HttpService } from "@nestjs/axios";
-import { Injectable } from "@nestjs/common";
+import { HttpService } from '@nestjs/axios';
+import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class EwaService {
@@ -31,7 +31,7 @@ export class EwaService {
       .then((response) => response.data.result.lesson)
       .catch((e) => {
         console.log(`Lesson ${id} Failed.`);
-        
+
         return null;
       });
   }

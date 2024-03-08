@@ -1,7 +1,7 @@
-import { Injectable } from "@nestjs/common";
-import { Model } from "mongoose";
-import { InjectModel } from "@nestjs/mongoose";
-import { Course, CourseDocument } from "./schemas/course.schema";
+import { Injectable } from '@nestjs/common';
+import { Model } from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+import { Course, CourseDocument } from './schemas/course.schema';
 
 @Injectable()
 export class CoursesService {
@@ -15,11 +15,11 @@ export class CoursesService {
     await this.coursesModel.updateOne(
       {originId: originId},
       data,
-      {upsert: true}
+      {upsert: true},
     );
 
     return this.coursesModel.findOne(
-      {originId: originId}
+      {originId: originId},
     );
   }
 }

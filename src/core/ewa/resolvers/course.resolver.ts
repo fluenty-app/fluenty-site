@@ -9,4 +9,4 @@ export const courseResolver = (course) => {
     isAdult: course.isAdult,
     dataVersion: course.dataVersion,
   };
-}
+};

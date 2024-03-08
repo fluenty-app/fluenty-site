@@ -13,4 +13,4 @@ export const lessonResolver = (course, lesson, words, phrases) => {
     words: words.map(word => word._id),
     phrases: phrases.map(phrase => phrase._id),
   };
-}
+};

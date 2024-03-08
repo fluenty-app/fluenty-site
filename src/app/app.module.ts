@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule } from "../config/config.module";
-import { DatabaseModule } from "../database/database.module";
-import { ComponentsModule } from "../components/components.module";
-import { ServeStaticModule } from "@nestjs/serve-static";
-import { join } from "path";
-import { EwaModule } from "../core/ewa/ewa.module";
+import { ConfigModule } from '../config/config.module';
+import { DatabaseModule } from '../database/database.module';
+import { ComponentsModule } from '../components/components.module';
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
+import { EwaModule } from '../core/ewa/ewa.module';
 
 @Module({
   imports: [

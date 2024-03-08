@@ -1,7 +1,7 @@
-import { Injectable } from "@nestjs/common";
-import { Model } from "mongoose";
-import { InjectModel } from "@nestjs/mongoose";
-import { Word, WordDocument } from "./schemas/word.schema";
+import { Injectable } from '@nestjs/common';
+import { Model } from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+import { Word, WordDocument } from './schemas/word.schema';
 
 @Injectable()
 export class WordsService {
@@ -15,11 +15,11 @@ export class WordsService {
     await this.wordsModel.updateOne(
       {originId: originId},
       data,
-      {upsert: true}
+      {upsert: true},
     );
 
     return this.wordsModel.findOne(
-      {originId: originId}
+      {originId: originId},
     );
   }
 }

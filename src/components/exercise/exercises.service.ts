@@ -1,7 +1,7 @@
-import { Injectable } from "@nestjs/common";
-import { Model } from "mongoose";
-import { InjectModel } from "@nestjs/mongoose";
-import { Exercise, ExerciseDocument } from "./schemas/exercise.schema";
+import { Injectable } from '@nestjs/common';
+import { Model } from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+import { Exercise, ExerciseDocument } from './schemas/exercise.schema';
 
 @Injectable()
 export class ExercisesService {
@@ -15,11 +15,11 @@ export class ExercisesService {
     await this.exercisesModel.updateOne(
       {originId: originId},
       data,
-      {upsert: true}
+      {upsert: true},
     );
 
     return this.exercisesModel.findOne(
-      {originId: originId}
+      {originId: originId},
     );
   }
 }

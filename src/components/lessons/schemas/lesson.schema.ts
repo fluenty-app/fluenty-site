@@ -1,6 +1,6 @@
-import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
-import { Document, Types } from "mongoose";
-import { Image } from "../../image/schemas/image.schema";
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Document, Types } from 'mongoose';
+import { Image } from '../../image/schemas/image.schema';
 
 
 export type LessonDocument = Lesson & Document;
