@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, OnModuleInit } from '@nestjs/common';
 import { CoursesService } from '../../components/courses/courses.service';
 import { EwaService } from './ewa.service';
 import { courseResolver } from './resolvers/course.resolver';
@@ -12,7 +12,7 @@ import { exerciseResolver } from './resolvers/exercise.resolver';
 import { ExercisesService } from '../../components/exercise/exercises.service';
 
 @Injectable()
-export class EwaSyncService {
+export class EwaSyncService implements OnModuleInit {
 
   constructor(
     protected readonly ewaService: EwaService,
@@ -23,6 +23,10 @@ export class EwaSyncService {
     protected readonly exercisesService: ExercisesService,
   ) {
     //
+  }
+
+  onModuleInit(): any {
+    // this.sync();
   }
 
   async sync() {

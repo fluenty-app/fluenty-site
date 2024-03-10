@@ -1,5 +1,8 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
+import { createWriteStream } from 'fs';
+import { join } from 'path';
+
 
 @Injectable()
 export class EwaService {
@@ -33,6 +36,28 @@ export class EwaService {
         console.log(`Lesson ${id} Failed.`);
 
         return null;
+      });
+  }
+
+  downloadImage(image) {
+    if (!image) {
+      return null;
+    }
+
+    return ['s', 'm', 'l', 'xl']
+      .map((size) => {
+        const filename = image[size]
+            .substring(image[size].indexOf(image._id) + 1)
+            .replace('?size=', '--')
+          + '.jpeg'
+
+        this.httpService.axiosRef
+          .get(image[size], {responseType: 'stream'})
+          .then(
+            response => response.data.pipe(
+              createWriteStream(join('images', filename))
+            )
+          );
       });
   }
 }

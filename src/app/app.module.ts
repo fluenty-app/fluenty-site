@@ -14,6 +14,7 @@ import { EwaModule } from '../core/ewa/ewa.module';
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '../../', 'public'),
     }),
+    EwaModule,
   ],
   controllers: [],
   providers: [],
