@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Lesson, LessonSchema } from './schemas/lesson.schema';
 import { LessonsService } from './lessons.service';
+import { LessonsController } from "./lessons.controller";
 
 
 @Module({
@@ -11,7 +12,7 @@ import { LessonsService } from './lessons.service';
     ]),
   ],
   controllers: [
-    //
+    LessonsController,
   ],
   providers: [
     LessonsService,

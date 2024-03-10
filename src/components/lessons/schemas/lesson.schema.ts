@@ -11,7 +11,7 @@ export class Lesson {
   static readonly collection = 'lessons';
 
   @Prop()
-  _id: number;
+  _id: Types.ObjectId;
 
   @Prop()
   originId: string;

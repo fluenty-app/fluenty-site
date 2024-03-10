@@ -10,7 +10,7 @@ export class Exercise {
   static readonly collection = 'exercises';
 
   @Prop()
-  _id: number;
+  _id: Types.ObjectId;
 
   @Prop()
   originId: string;
