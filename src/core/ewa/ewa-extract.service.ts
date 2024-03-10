@@ -1,8 +1,9 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { EwaService } from './ewa.service';
-import { InjectModel } from '@nestjs/mongoose';
-import { Model, Types } from 'mongoose';
+import { InjectConnection, InjectModel } from '@nestjs/mongoose';
+import { Connection, Model, Types } from 'mongoose';
 import { OriginCourse, OriginCourseDocument } from './schemas/origin-course.schema';
+import { ConfigService } from "@nestjs/config";
 
 @Injectable()
 export class EwaExtractService {
@@ -15,6 +16,8 @@ export class EwaExtractService {
   }
 
   async extract() {
+    console.log('Ewa extraction started');
+
     const courses = await this.ewaService.getCourses();
 
     const items = await Promise.all(
