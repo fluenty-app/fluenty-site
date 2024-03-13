@@ -42,6 +42,8 @@ export class EwaExtractService implements OnModuleInit {
 
     await this.persist(items);
 
+    // const items = (await this.originCoursesModel.findOne({}, {}, {sort: {_id: -1}})).items;
+
     await this.download(items);
 
     console.log('Completed');
@@ -69,6 +71,10 @@ export class EwaExtractService implements OnModuleInit {
         }
 
         this.ewaService.downloadImage(lesson.image);
+
+        lesson.exercises.map((exercise) => {
+          this.ewaService.downloadMedia(exercise.media);
+        });
       });
     });
 

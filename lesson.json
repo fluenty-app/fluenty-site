@@ -1,0 +1,2508 @@
+{
+  "passScore": 0,
+  "_id": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+  "isFree": true,
+  "isAdult": false,
+  "kind": "common",
+  "number": 11,
+  "totalExercises": 36,
+  "origin": "انواع نام ها",
+  "promoAction": "noAction",
+  "title": "انواع نام ها",
+  "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+  "imageId": "c814f9ce-3852-44bb-b255-d5a85fd1ae57",
+  "isReady": {
+    "ru": true,
+    "uk": true,
+    "zh": true,
+    "it": true,
+    "pt": true,
+    "es": true,
+    "tr": true,
+    "ko": true,
+    "vi": true,
+    "pl": true,
+    "he": true,
+    "th": true,
+    "az": true,
+    "hy": true,
+    "ar": true,
+    "zh_hant": true,
+    "fr": true,
+    "kk": true,
+    "hi": true,
+    "id": true,
+    "ja": true,
+    "de": true,
+    "ka": true,
+    "fa": true,
+    "ro": true,
+    "el": true,
+    "cs": true,
+    "sv": true,
+    "sk": true,
+    "bg": true,
+    "sr": true,
+    "hu": true
+  },
+  "hasAdultContent": false,
+  "difficulty": 0,
+  "image": {
+    "_id": "c814f9ce-3852-44bb-b255-d5a85fd1ae57",
+    "xl": "https://storage.appewa.com/api/v1/files/c814f9ce-3852-44bb-b255-d5a85fd1ae57",
+    "s": "https://storage.appewa.com/api/v1/files/c814f9ce-3852-44bb-b255-d5a85fd1ae57?size=400x300",
+    "m": "https://storage.appewa.com/api/v1/files/c814f9ce-3852-44bb-b255-d5a85fd1ae57?size=800x600",
+    "l": "https://storage.appewa.com/api/v1/files/c814f9ce-3852-44bb-b255-d5a85fd1ae57?size=1200x900"
+  },
+  "media": [],
+  "id": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+  "totalPhrases": 10,
+  "exercises": [
+    {
+      "_id": "1519b0d6-45e0-426f-89cd-294dbeb37468",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "8687fccd-108c-4c01-99a3-5ce3c69e6cb0",
+          "thumbnail": {
+            "_id": "f5744f37-0903-4119-a0f9-7845edc704f9",
+            "xl": "https://storage.appewa.com/api/v1/files/f5744f37-0903-4119-a0f9-7845edc704f9",
+            "ss": "https://storage.appewa.com/api/v1/files/f5744f37-0903-4119-a0f9-7845edc704f9?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/f5744f37-0903-4119-a0f9-7845edc704f9?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/f5744f37-0903-4119-a0f9-7845edc704f9?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/f5744f37-0903-4119-a0f9-7845edc704f9?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/8687fccd-108c-4c01-99a3-5ce3c69e6cb0/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "fb29b4e8-5ef8-44ed-8f1a-6c185fdf1351",
+            "vp9": "3fb2e836-4feb-4bab-a0e3-9d7ec42d0d04"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "What's your first name?",
+        "translation": "اسم تو چیست (اسمت چیه)؟",
+        "description": "هنگام آشنایی پیش از هر چیز اسم رو می پرسند."
+      }
+    },
+    {
+      "_id": "30e11802-947e-4186-9004-97f61ccdc408",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "86aa8f1e-e208-4af6-9069-5dfb41e885e2",
+          "thumbnail": {
+            "_id": "a195819d-7859-4cb2-804a-f89b45c2cb20",
+            "xl": "https://storage.appewa.com/api/v1/files/a195819d-7859-4cb2-804a-f89b45c2cb20",
+            "ss": "https://storage.appewa.com/api/v1/files/a195819d-7859-4cb2-804a-f89b45c2cb20?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/a195819d-7859-4cb2-804a-f89b45c2cb20?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/a195819d-7859-4cb2-804a-f89b45c2cb20?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/a195819d-7859-4cb2-804a-f89b45c2cb20?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/86aa8f1e-e208-4af6-9069-5dfb41e885e2/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "87494ff6-e151-4da7-9a1e-cfc3cdcffac3",
+            "vp9": "fd82bea6-f9aa-459f-a40e-708656e1d8d1"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Your first name is Motherfucker?",
+        "translation": "اسمت حرامزادست؟",
+        "description": "بعضی از اسم ها اصیل تر از بقیه هستند."
+      }
+    },
+    {
+      "_id": "e226d9df-4291-4740-910f-ed1d9740a190",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "2d70ebef-3e8d-4c47-8695-b25c59f90395",
+          "thumbnail": {
+            "_id": "aeceafcc-f62c-4287-a701-6339b02a9f73",
+            "xl": "https://storage.appewa.com/api/v1/files/aeceafcc-f62c-4287-a701-6339b02a9f73",
+            "ss": "https://storage.appewa.com/api/v1/files/aeceafcc-f62c-4287-a701-6339b02a9f73?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/aeceafcc-f62c-4287-a701-6339b02a9f73?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/aeceafcc-f62c-4287-a701-6339b02a9f73?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/aeceafcc-f62c-4287-a701-6339b02a9f73?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/2d70ebef-3e8d-4c47-8695-b25c59f90395/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "4bea45ba-d208-4ffd-b623-476f48607ff7",
+            "vp9": "d2ad9031-f6fb-44ae-b057-13802eb72482"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Whose last name is Lannister?",
+        "translation": "نام خانوادگی چه کسی لنیستر است؟",
+        "description": "بعدش می تونید نام خانوادگی رو بپرسید."
+      }
+    },
+    {
+      "_id": "89e49241-4c5e-48e5-a7ed-11b8fefd1870",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "0cb9370f-845b-42de-9264-4f7a69cf76c4",
+          "thumbnail": {
+            "_id": "cfb18b6f-b086-448d-87ae-acb59e42b299",
+            "xl": "https://storage.appewa.com/api/v1/files/cfb18b6f-b086-448d-87ae-acb59e42b299",
+            "ss": "https://storage.appewa.com/api/v1/files/cfb18b6f-b086-448d-87ae-acb59e42b299?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/cfb18b6f-b086-448d-87ae-acb59e42b299?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/cfb18b6f-b086-448d-87ae-acb59e42b299?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/cfb18b6f-b086-448d-87ae-acb59e42b299?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/0cb9370f-845b-42de-9264-4f7a69cf76c4/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "5d8113d0-a8e3-46da-aa28-816c18a4a8d9",
+            "vp9": "e1a6ef28-1a92-4fbd-a899-b1d9e39ed003"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "First name, Montgomery. Last name, Montgomery.",
+        "translation": "اسم: مونتگمری. فامیلی: مونتگمری.",
+        "description": "برای افراد فاقد تخیل، اسم و فامیل می تونه یکسان باشه!"
+      }
+    },
+    {
+      "_id": "2ba36a2d-ca6c-489d-99ae-09c42c547d56",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "5a6148f5-f111-417d-9c01-a37e39aee9a6",
+          "thumbnail": {
+            "_id": "69518716-80bb-4bff-8561-64fc86203484",
+            "xl": "https://storage.appewa.com/api/v1/files/69518716-80bb-4bff-8561-64fc86203484",
+            "ss": "https://storage.appewa.com/api/v1/files/69518716-80bb-4bff-8561-64fc86203484?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/69518716-80bb-4bff-8561-64fc86203484?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/69518716-80bb-4bff-8561-64fc86203484?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/69518716-80bb-4bff-8561-64fc86203484?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/5a6148f5-f111-417d-9c01-a37e39aee9a6/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "c4ad1a9b-3e8b-442b-a9dd-b6255213b5a5",
+            "vp9": "7eeda492-7c2c-46c6-94ba-85fa3b472bc3"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "First name: Crap. Last name: Bag,",
+        "translation": "اسم: گُه. فامیلی: کیسه.",
+        "description": "و افراد خلاق خیلی سریع مشخص میشن."
+      }
+    },
+    {
+      "_id": "607fefc2-45bd-4aaf-993a-270c948e3fcd",
+      "type": "chooseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "d57e2eed-932f-4549-9231-3a0f930ce7d3",
+          "thumbnail": {
+            "_id": "c845a167-cf0a-4b4e-973e-04020da78880",
+            "xl": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880",
+            "ss": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/d57e2eed-932f-4549-9231-3a0f930ce7d3/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "bc32da7c-f48c-48ec-9ba8-72d4e226c2e0",
+            "vp9": "a6359d8c-4720-4a15-9a1a-abc2f650df94"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Choose answer with video",
+        "text": "",
+        "hint": "ترجمه جمله ای را که در ویدئو می شنوی، انتخاب کن.",
+        "answers": {
+          "correct": "اسم او ایلان است.",
+          "incorrect": [
+            "فامیلی او ایلان است.",
+            "نام میانی او ایلان است.",
+            "نام مستعار او ایلان است."
+          ]
+        },
+        "meaningsLabel": null
+      }
+    },
+    {
+      "_id": "e40a9025-7553-4c33-9685-88aa2078d577",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "9be941b6-bb22-4ce2-8d35-971dffc05924",
+          "thumbnail": {
+            "_id": "a8df18b1-79dc-4292-a780-8d18d03d2570",
+            "xl": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570",
+            "ss": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/9be941b6-bb22-4ce2-8d35-971dffc05924/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "53c8e292-00b1-4c53-a5b2-6c3d034d7019",
+            "vp9": "47c12250-bad8-4f95-9d7a-5a9f789be8bc"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "First name: Kobayashi. Last name: Maru.": "https://storage.appewa.com/api/v1/files/1eab3e32-0c2f-4480-8346-29377453706b.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "{First} {name}: Kobayashi. {Last} {name}: Maru.",
+          "textArea": true
+        },
+        "extraBlocks": "{Ferst} {Fist} {Furst} {Lust} {Lost}"
+      }
+    },
+    {
+      "_id": "59c3747c-55fa-44e4-982a-fc36a855eeb1",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "c84c2f3c-fad3-4c46-986d-f33ab0f9263a",
+          "thumbnail": {
+            "_id": "3e12cd15-1bc2-4eb1-a2ee-ce3114be924a",
+            "xl": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a",
+            "ss": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/c84c2f3c-fad3-4c46-986d-f33ab0f9263a/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "7588f6e8-f906-4a78-aa9d-35d5e2bd2bcd",
+            "vp9": "10b39827-6bbe-472b-af51-25eb54c009d6"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "What's your last name?": "https://storage.appewa.com/api/v1/files/88c5874e-8c9e-48af-9417-fd7069526674.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "{What's} {your} {last} {name}?",
+          "textArea": true
+        },
+        "extraBlocks": "{less} {loss} {lasse}"
+      }
+    },
+    {
+      "_id": "cfd918d2-58e9-4bda-a9ac-09386971490e",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "Is Landon your last name? Or first name?": "https://storage.appewa.com/api/v1/files/3fba8425-99c8-41c4-a230-37b5dd0c3976.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "لندن - نام خانوادگی توئه؟ یا اسمت؟",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "Is Landon your {last} {name}? Or {first} {name}?"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "3c927369-6aaa-4373-bc0a-454c82f3cacc",
+      "type": "composeWord",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "Jared's last name is Leto.": "https://storage.appewa.com/api/v1/files/0d65f4c9-6311-414f-9e99-7482dd5d1cdb.mp3"
+        }
+      },
+      "content": {
+        "label": "Collect missed word",
+        "text": "Jared's {word} name is Leto.",
+        "hint": "لغت را تشکیل بده.",
+        "answers": {
+          "correct": "last"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "e1e6e518-5c30-4a41-ba09-74affebdc5e0",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "24ea861f-4844-47ac-a6bd-5b86c0148158",
+          "thumbnail": {
+            "_id": "95192948-862e-4b1a-be70-919dd46cb6cb",
+            "xl": "https://storage.appewa.com/api/v1/files/95192948-862e-4b1a-be70-919dd46cb6cb",
+            "ss": "https://storage.appewa.com/api/v1/files/95192948-862e-4b1a-be70-919dd46cb6cb?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/95192948-862e-4b1a-be70-919dd46cb6cb?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/95192948-862e-4b1a-be70-919dd46cb6cb?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/95192948-862e-4b1a-be70-919dd46cb6cb?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/24ea861f-4844-47ac-a6bd-5b86c0148158/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "37c2834b-5d8d-4b87-8205-bcc87dee7ece",
+            "vp9": "58d755c7-afc9-4718-9cdd-c807d2586367"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Your family name is Tribbiani.",
+        "translation": "فامیلی تو تریببیانی است.",
+        "description": "بعضی ها فامیلیشون رو فراموش می کنند."
+      }
+    },
+    {
+      "_id": "d76591ce-5b18-4648-866b-71969f84421c",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "498a711a-3cfa-471e-9933-d5b124966912",
+          "thumbnail": {
+            "_id": "d7928c4b-bee9-47d2-a5bd-d3d4c702b547",
+            "xl": "https://storage.appewa.com/api/v1/files/d7928c4b-bee9-47d2-a5bd-d3d4c702b547",
+            "ss": "https://storage.appewa.com/api/v1/files/d7928c4b-bee9-47d2-a5bd-d3d4c702b547?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/d7928c4b-bee9-47d2-a5bd-d3d4c702b547?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/d7928c4b-bee9-47d2-a5bd-d3d4c702b547?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/d7928c4b-bee9-47d2-a5bd-d3d4c702b547?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/498a711a-3cfa-471e-9933-d5b124966912/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "d7643e9a-1917-4cd7-ae1d-c4799e1045fe",
+            "vp9": "23d56aa5-3ea7-4cea-9d5b-21741efc7eeb"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "My middle name...",
+        "translation": "نام میانی من ...",
+        "description": "بعضی ها هم اسم میانی دارند."
+      }
+    },
+    {
+      "_id": "a99de09a-219c-491f-a511-1582c8ccb178",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "a18e08a3-e4c4-4c82-b2bd-54b44168acb1",
+          "thumbnail": {
+            "_id": "b0343c62-42cc-4e1e-91dc-83ed5fbaafe9",
+            "xl": "https://storage.appewa.com/api/v1/files/b0343c62-42cc-4e1e-91dc-83ed5fbaafe9",
+            "ss": "https://storage.appewa.com/api/v1/files/b0343c62-42cc-4e1e-91dc-83ed5fbaafe9?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/b0343c62-42cc-4e1e-91dc-83ed5fbaafe9?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/b0343c62-42cc-4e1e-91dc-83ed5fbaafe9?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/b0343c62-42cc-4e1e-91dc-83ed5fbaafe9?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/a18e08a3-e4c4-4c82-b2bd-54b44168acb1/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "ef4a4cdd-87da-4004-a1e2-1d94e314288d",
+            "vp9": "1a053812-5154-438f-86f4-b944279acd25"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Danger's my middle name.",
+        "translation": "خطر نام میانی من است.",
+        "description": "بعضیا واسه خودشون اسم های باحال انتخاب می کنند."
+      }
+    },
+    {
+      "_id": "7edf8a0e-fcd9-4fb9-8c65-cb6f6e4bae18",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "1d8bf37b-0db0-4957-8b39-b5ad7ffff077",
+          "thumbnail": {
+            "_id": "d99096cb-999c-475e-8675-296e66fd177b",
+            "xl": "https://storage.appewa.com/api/v1/files/d99096cb-999c-475e-8675-296e66fd177b",
+            "ss": "https://storage.appewa.com/api/v1/files/d99096cb-999c-475e-8675-296e66fd177b?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/d99096cb-999c-475e-8675-296e66fd177b?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/d99096cb-999c-475e-8675-296e66fd177b?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/d99096cb-999c-475e-8675-296e66fd177b?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/1d8bf37b-0db0-4957-8b39-b5ad7ffff077/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "ab527efc-7e19-470a-b20a-ceac572da097",
+            "vp9": "29115fe0-05f9-473e-9ec8-345f1d51428d"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "I can't tell you my full name!",
+        "translation": "من نمی تونم اسم کاملم رو به تو بگم!",
+        "description": "ممکنه فقط خجالت میکشه؟"
+      }
+    },
+    {
+      "_id": "080762f1-5585-47cc-98ec-622c8b963d30",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "4a5e09e9-93c0-45e6-b38e-51182630465d",
+          "thumbnail": {
+            "_id": "e61fb181-a89e-43ee-9fc3-123c93cc6dea",
+            "xl": "https://storage.appewa.com/api/v1/files/e61fb181-a89e-43ee-9fc3-123c93cc6dea",
+            "ss": "https://storage.appewa.com/api/v1/files/e61fb181-a89e-43ee-9fc3-123c93cc6dea?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/e61fb181-a89e-43ee-9fc3-123c93cc6dea?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/e61fb181-a89e-43ee-9fc3-123c93cc6dea?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/e61fb181-a89e-43ee-9fc3-123c93cc6dea?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/4a5e09e9-93c0-45e6-b38e-51182630465d/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "f0c74ed5-b1d1-4922-b92a-4634c5858a59",
+            "vp9": "892a66ed-f145-4ddc-b543-eaaa5adf001f"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Carmen Elizabeth Juanita De Costa-Brava Cortez.",
+        "translation": "کارمن الیزابت خوانیتا د کُستا-براوا کُرتس.",
+        "description": "یا شایدم نمی تونه به خاطر بسپاره."
+      }
+    },
+    {
+      "_id": "34ff9a80-dac6-4d72-92b1-823f4ba1b79e",
+      "type": "chooseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "621e9c1d-d651-4b0e-addf-842b936e0113",
+          "thumbnail": {
+            "_id": "dc58fab9-fe5a-4db4-9ebc-b854eaccfde6",
+            "xl": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6",
+            "ss": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/621e9c1d-d651-4b0e-addf-842b936e0113/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "8771a0cf-7acd-4114-9d05-169083f60b5d",
+            "vp9": "df72eee0-8638-47b4-9914-63d2f241f629"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Choose answer with video",
+        "text": "",
+        "hint": "ترجمه جمله ای را که در ویدئو می شنوی، انتخاب کن.",
+        "answers": {
+          "correct": "نام کامل تو چیست؟",
+          "incorrect": [
+            "نام میانی تو چیست؟",
+            "فامیلی تو چیست؟",
+            "نام پدر تو چیست؟"
+          ]
+        },
+        "meaningsLabel": null
+      }
+    },
+    {
+      "_id": "614e5bd2-03c4-40df-99ce-5c26f3c9151e",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "0e0f43be-166a-4554-b230-69d8f3d0bdc5",
+          "thumbnail": {
+            "_id": "3be258ba-8cc6-40ad-978f-f980e6b2b37f",
+            "xl": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f",
+            "ss": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/0e0f43be-166a-4554-b230-69d8f3d0bdc5/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "a0cb82d9-6ec8-4597-a0de-949e3a4c76c2",
+            "vp9": "43841cf6-1cc1-45e9-ae7d-312ebe54c441"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "My family name is Professorberg.": "https://storage.appewa.com/api/v1/files/170c15c2-8061-47bd-8da2-887e66108b1e.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "{My} {family} {name} {is} Professorberg.",
+          "textArea": true
+        },
+        "extraBlocks": "{fammily} {familiar} {familly}"
+      }
+    },
+    {
+      "_id": "250ac3d0-0b43-4c4f-810d-aebdafdca31f",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "1db2c631-07ee-41aa-8927-7d5b6cdf7ea7",
+          "thumbnail": {
+            "_id": "110e2be0-3b73-4d57-bb5f-816c7c46a65f",
+            "xl": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f",
+            "ss": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/1db2c631-07ee-41aa-8927-7d5b6cdf7ea7/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "5230ba76-fa6f-4d63-89da-a9a2e9a60c2c",
+            "vp9": "11786d6c-a44a-40c4-bdd7-b84254f67f14"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "His middle name is Ulysses.": "https://storage.appewa.com/api/v1/files/e63cc8f0-f564-4fe0-9abf-bd5fc70a9ed2.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "His {middle} {name} is Ulysses.",
+          "textArea": true
+        },
+        "extraBlocks": "{midle} {medium} {middel} {medal}"
+      }
+    },
+    {
+      "_id": "3f373182-c3d3-4412-9abf-878e01efa5f8",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "His family name is Corleone.": "https://storage.appewa.com/api/v1/files/9b182ef0-0ff3-4cf3-8842-813a0bb068b1.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "نام خانوادگی او کورلئون است.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "{His} {family} {name} is Corleone."
+        },
+        "extraBlocks": "{middle} {full} {first}"
+      }
+    },
+    {
+      "_id": "dead1948-f273-40d0-9164-f73128422e6a",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "I can't tell you my middle name!": "https://storage.appewa.com/api/v1/files/d96d1b26-c3c7-44c3-a4d3-d0ed30a63743.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "من نام میانی ام را به تو نمی گویم.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "I can't tell you {my} {middle} {name}!"
+        },
+        "extraBlocks": "{full} {second} {family}"
+      }
+    },
+    {
+      "_id": "d94a3771-2e07-4609-a6f3-4eef5acf2af4",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "bceffe32-3a61-4f59-a37e-ec23203029a6",
+          "thumbnail": {
+            "_id": "b81bae3e-fe62-4839-84f5-7c5435b5541d",
+            "xl": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d",
+            "ss": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/bceffe32-3a61-4f59-a37e-ec23203029a6/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "d1f5b1b3-949d-4496-8d89-498c551e4038",
+            "vp9": "845f83cb-1ec4-4800-9551-f8e0534f3c4d"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "- Your full name? - William Buyers.": "https://storage.appewa.com/api/v1/files/7b6cdca2-b3e0-448e-bab0-25a3ba41c95c.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "- Your {full} {name}? - William Buyers.",
+          "textArea": true
+        },
+        "extraBlocks": "{fall} {foul} {foll} {fool} {fuel}"
+      }
+    },
+    {
+      "_id": "1c8b99a4-5372-4e93-8689-f35fd2b698ce",
+      "type": "composeWord",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "I don't know Mark's full name.": "https://storage.appewa.com/api/v1/files/ed81c973-c754-4dab-97ee-7dcf50f3f095.mp3"
+        }
+      },
+      "content": {
+        "label": "Collect missed word",
+        "text": "I don't know Mark's {word} name.",
+        "hint": "لغت را تشکیل بده.",
+        "answers": {
+          "correct": "full"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "0ae74fae-13eb-473b-9c8e-4794f746d188",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "3053f7c8-309b-4c06-9092-b4787c339c5b",
+          "thumbnail": {
+            "_id": "372a5bc2-6489-40eb-a4ef-4e53b26e546c",
+            "xl": "https://storage.appewa.com/api/v1/files/372a5bc2-6489-40eb-a4ef-4e53b26e546c",
+            "ss": "https://storage.appewa.com/api/v1/files/372a5bc2-6489-40eb-a4ef-4e53b26e546c?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/372a5bc2-6489-40eb-a4ef-4e53b26e546c?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/372a5bc2-6489-40eb-a4ef-4e53b26e546c?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/372a5bc2-6489-40eb-a4ef-4e53b26e546c?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/3053f7c8-309b-4c06-9092-b4787c339c5b/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "e76f6376-d5a5-494f-8024-513226e03f55",
+            "vp9": "762a9dee-7665-4fab-a15c-42df1edd4f13"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "He doesn't even have a surname.",
+        "translation": "او حتی نام خانوادگی نداره.",
+        "description": "هستن آدم هایی که فامیلی ندارند."
+      }
+    },
+    {
+      "_id": "1e07248a-b6bc-4ead-b100-6a76b0e9c318",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "b135cc8c-78b1-4257-9b20-7144c7e9f423",
+          "thumbnail": {
+            "_id": "dbf67c65-72f2-4483-a341-d61cc7bb951d",
+            "xl": "https://storage.appewa.com/api/v1/files/dbf67c65-72f2-4483-a341-d61cc7bb951d",
+            "ss": "https://storage.appewa.com/api/v1/files/dbf67c65-72f2-4483-a341-d61cc7bb951d?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/dbf67c65-72f2-4483-a341-d61cc7bb951d?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/dbf67c65-72f2-4483-a341-d61cc7bb951d?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/dbf67c65-72f2-4483-a341-d61cc7bb951d?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/b135cc8c-78b1-4257-9b20-7144c7e9f423/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "45b06d35-bce4-475c-9201-35f8a9452c87",
+            "vp9": "7b416bde-287f-4298-8944-70b78c535cdd"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Why is my surname Snow?",
+        "translation": "چرا فامیلی من اسنوئه؟",
+        "description": "و هستن کسایی که منشا اون رو نمی دونند."
+      }
+    },
+    {
+      "_id": "c7596f6e-1eb3-4edb-aeab-030e82caa39b",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "7cf5216d-a7ee-42dd-8df2-9e4061e0371a",
+          "thumbnail": {
+            "_id": "45f37499-fc66-4d2d-b0bc-c9df7e4b2a5f",
+            "xl": "https://storage.appewa.com/api/v1/files/45f37499-fc66-4d2d-b0bc-c9df7e4b2a5f",
+            "ss": "https://storage.appewa.com/api/v1/files/45f37499-fc66-4d2d-b0bc-c9df7e4b2a5f?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/45f37499-fc66-4d2d-b0bc-c9df7e4b2a5f?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/45f37499-fc66-4d2d-b0bc-c9df7e4b2a5f?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/45f37499-fc66-4d2d-b0bc-c9df7e4b2a5f?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/7cf5216d-a7ee-42dd-8df2-9e4061e0371a/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "7f9df0c2-f79c-41a2-8553-1900469c88ab",
+            "vp9": "03d4689e-f4a0-4b2d-9dfc-8ab6a601dacd"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Amanda Ripley-McCLaren. Married name, I guess.",
+        "translation": "اماندا ریپلی-مک کلارن. حدس می زنم نام خانوادگی متاهلی (بعد از ازدواج) باشه.",
+        "description": "شاید این نام خانوادگی شوهرش باشه."
+      }
+    },
+    {
+      "_id": "27531f76-f4a2-4959-b5f8-e2a1208f9aa0",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "d142f0d0-d30e-4594-a2db-b19539053c7e",
+          "thumbnail": {
+            "_id": "61c7614b-7b50-4068-8723-685ab6d37ea9",
+            "xl": "https://storage.appewa.com/api/v1/files/61c7614b-7b50-4068-8723-685ab6d37ea9",
+            "ss": "https://storage.appewa.com/api/v1/files/61c7614b-7b50-4068-8723-685ab6d37ea9?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/61c7614b-7b50-4068-8723-685ab6d37ea9?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/61c7614b-7b50-4068-8723-685ab6d37ea9?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/61c7614b-7b50-4068-8723-685ab6d37ea9?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/d142f0d0-d30e-4594-a2db-b19539053c7e/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "9f07d2e5-f34c-417b-9d34-743f0087a911",
+            "vp9": "f9bc7d68-ab48-4362-bfed-c82ce11e5b15"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Oh, that's my maiden name.",
+        "translation": "اوه، این نام خانوادگی پدری (قبل از ازدواج) من است.",
+        "description": "و شایدم نام خانوادگی پدریش باشه."
+      }
+    },
+    {
+      "_id": "7306ae59-8d35-4fb8-8b86-9fad19375fbf",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "df5cb648-622e-468c-bba9-bbb62da535aa",
+          "thumbnail": {
+            "_id": "08bd24d5-a2fb-44ea-936a-27ff09fec970",
+            "xl": "https://storage.appewa.com/api/v1/files/08bd24d5-a2fb-44ea-936a-27ff09fec970",
+            "ss": "https://storage.appewa.com/api/v1/files/08bd24d5-a2fb-44ea-936a-27ff09fec970?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/08bd24d5-a2fb-44ea-936a-27ff09fec970?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/08bd24d5-a2fb-44ea-936a-27ff09fec970?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/08bd24d5-a2fb-44ea-936a-27ff09fec970?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/df5cb648-622e-468c-bba9-bbb62da535aa/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "0ed1d360-dd4c-47cc-90f4-e62885a9106b",
+            "vp9": "abd8bdb3-b107-4492-8b76-b7c993da0189"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Your mother's maiden name is Turner.",
+        "translation": "نام خانوادگی پدری مادر تو تورنر است.",
+        "description": "و البته ممکنه که نام خانوادگی پدری، فامیلی مادر باشه ..."
+      }
+    },
+    {
+      "_id": "54c10a8d-7528-4774-85da-863e12ce16e8",
+      "type": "explain",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "818347cb-363d-4869-92cc-c8686bb68eac",
+          "thumbnail": {
+            "_id": "799529d9-cae3-4db1-b583-62470c27c416",
+            "xl": "https://storage.appewa.com/api/v1/files/799529d9-cae3-4db1-b583-62470c27c416",
+            "ss": "https://storage.appewa.com/api/v1/files/799529d9-cae3-4db1-b583-62470c27c416?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/799529d9-cae3-4db1-b583-62470c27c416?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/799529d9-cae3-4db1-b583-62470c27c416?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/799529d9-cae3-4db1-b583-62470c27c416?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/818347cb-363d-4869-92cc-c8686bb68eac/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "cfbc5e48-dbc2-4148-8df3-600020bbc808",
+            "vp9": "575f952f-2769-41f5-bd9c-95289d3e9217"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Explanation",
+        "text": "Dahlgren is my maiden name, Frost is my married name.",
+        "translation": "دُلگرن نام خانوادگی پدری من و فراست نام خانوادگی متاهلی من است.",
+        "description": "بهتره که همه چیز رو موقع ملاقات توضیح بدید."
+      }
+    },
+    {
+      "_id": "74ff89af-3901-469a-8161-6991d39f9f56",
+      "type": "chooseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "0c5717eb-ff64-459d-957f-0847f98c4440",
+          "thumbnail": {
+            "_id": "d4054485-f750-43bc-a9f5-fe3db17ddc47",
+            "xl": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47",
+            "ss": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/0c5717eb-ff64-459d-957f-0847f98c4440/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "c4e66315-f864-493b-8402-7f5edb5da34b",
+            "vp9": "9d75dc68-2e75-45e0-998c-c8ef6dbb0ac1"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null
+      },
+      "content": {
+        "label": "Choose answer with video",
+        "text": "",
+        "hint": "ترجمه جمله ای را که در ویدئو می شنوی، انتخاب کن.",
+        "answers": {
+          "correct": "این نام خانوادگی پدری من است.",
+          "incorrect": [
+            "این فامیلی من است!",
+            "این نام خانوادگی متاهلی من است.",
+            "این نام میانی من است!"
+          ]
+        },
+        "meaningsLabel": null
+      }
+    },
+    {
+      "_id": "34c6941c-7364-4ae2-9777-2c400ba8d1d2",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "25836213-c4e3-49f2-bddb-237cfae448cf",
+          "thumbnail": {
+            "_id": "3e40352d-069e-4d6f-a6f4-63b766469002",
+            "xl": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002",
+            "ss": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/25836213-c4e3-49f2-bddb-237cfae448cf/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "343821c6-58b0-47a6-9247-3d400cbbb4d4",
+            "vp9": "482f512c-ef2c-4726-86f0-d91ca927190a"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "Powell was Caroline's maiden name.": "https://storage.appewa.com/api/v1/files/e2ce91b7-b8e3-4b0d-9134-cacd062dcd32.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "Powell was Caroline's {maiden} {name}.",
+          "textArea": true
+        },
+        "extraBlocks": "{maden} {made} {main} {mainen}"
+      }
+    },
+    {
+      "_id": "796abe27-4c6c-454d-9288-052b2d2afbe9",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "5fb24fad-a78f-491f-9ebc-b580eb30b391",
+          "thumbnail": {
+            "_id": "e20c933d-4305-4294-b9b8-9702e74a3bf1",
+            "xl": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1",
+            "ss": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/5fb24fad-a78f-491f-9ebc-b580eb30b391/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "3e6c8d5b-0ec7-4440-80dc-808b4d53ab62",
+            "vp9": "ee88331a-e9c3-43a3-8575-b056095a61ee"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "Wallace is the surname of your mother.": "https://storage.appewa.com/api/v1/files/66bed178-faa0-42e7-9d3b-4cfdbb1c252c.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "Wallace is the {surname} of your mother.",
+          "textArea": true
+        },
+        "extraBlocks": "{third} {sirname} {sir name} {surename} {sorname}"
+      }
+    },
+    {
+      "_id": "36538d4a-9768-4465-a94d-f8ec82ebd396",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "Cher doesn't have a surname. She's simply Cher.": "https://storage.appewa.com/api/v1/files/59b421c2-dcf5-4f2c-9edc-c362b27955de.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "شر نام خانوادگی ندارد. فقط شر خالیه.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "Cher doesn't have a {surname}. She's simply Cher."
+        },
+        "extraBlocks": "{maiden name} {married name}"
+      }
+    },
+    {
+      "_id": "0e1001c4-1aa1-4f0b-b53f-0c12e2ab5100",
+      "type": "composeWord",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "My first name is Lara. Croft is my surname.": "https://storage.appewa.com/api/v1/files/0ccc6911-bb66-40ac-91c0-eba9f09bce96.mp3"
+        }
+      },
+      "content": {
+        "label": "Collect missed word",
+        "text": "My first name is Lara. Croft is my {word}.",
+        "hint": "لغت را تشکیل بده.",
+        "answers": {
+          "correct": "surname"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "7cd12719-232f-4759-a663-d0e306f8b711",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "9aba450d-6e04-4e57-98ef-2bc32e4d244a",
+          "thumbnail": {
+            "_id": "cbe5c2de-4736-4785-b337-f9e1ac84d479",
+            "xl": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479",
+            "ss": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/9aba450d-6e04-4e57-98ef-2bc32e4d244a/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "6c7a86e2-551f-467d-a43d-2fbddab49fa2",
+            "vp9": "2c6957d6-6a6d-4552-ba44-e71b9fb665dc"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "Cooper... Your married name?": "https://storage.appewa.com/api/v1/files/fe1db216-5ee8-44a4-bc1a-6128cc109978.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "Cooper... Your {married} {name}?",
+          "textArea": true
+        },
+        "extraBlocks": "{maiden} {merry} {maid} {marry} {merried}"
+      }
+    },
+    {
+      "_id": "15c62785-ec1c-41ec-825c-138a86e0a73c",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "image": null,
+        "voice": {
+          "I like my married name more.": "https://storage.appewa.com/api/v1/files/64fe33f5-632a-40ee-8de7-314ba6658c3d.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "من نام خانوادگی متاهلی ام را بیشتر دوست دارم.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "I like my {married} {name} more."
+        },
+        "extraBlocks": "{maiden} {wedding} {full} {first}"
+      }
+    },
+    {
+      "_id": "2089d181-8f42-4112-bae7-8405071aa4fb",
+      "type": "dialog",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": {
+            "_id": "f1d13aa1-77f5-4461-be23-4c7240d79868",
+            "xl": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868",
+            "ss": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=1920x1080"
+          },
+          "user": {
+            "_id": "483325d9-4916-45e6-97a2-fbb22d126e90",
+            "xl": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90",
+            "ss": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=1920x1080"
+          }
+        },
+        "image": null,
+        "voice": {
+          "I can’t tell you my full name.": "https://storage.appewa.com/api/v1/files/752d8465-21e5-487e-8ba0-07c8ebf683be.mp3",
+          "Yeah, but your maiden name is Stephanapopolus.": "https://storage.appewa.com/api/v1/files/c7208b9f-6736-4e26-8fed-dca0875b9f37.mp3",
+          "How did you know my last name?": "https://storage.appewa.com/api/v1/files/03238c1f-4e64-4836-ad96-68a2e8058e2d.mp3",
+          "Black Mamba, I will kill you.": "https://storage.appewa.com/api/v1/files/f185af9d-aaf0-4cad-ae12-32bc7f6b45c5.mp3",
+          "Really?": "https://storage.appewa.com/api/v1/files/5fa98fb0-172b-46e7-97be-a82c30a63d99.mp3",
+          "Kill is my middle name.": "https://storage.appewa.com/api/v1/files/c299982d-6225-4185-85d2-76ae853c58a3.mp3",
+          "I already know. It's Beatrix Kiddo.": "https://storage.appewa.com/api/v1/files/a6a9e8f8-0562-4eab-8848-fb96c1d81e3a.mp3",
+          "My name is much better. Elle Driver.": "https://storage.appewa.com/api/v1/files/bab78598-731a-480e-85c4-f94e457cc6f3.mp3"
+        }
+      },
+      "content": {
+        "label": "Dialogue",
+        "messages": [
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "Black Mamba, I will kill you.",
+              "hint": "تو رو به مرگ تهدید می کنه. بگو که قتل نام میانی من است.",
+              "correct": "Kill is my middle name.",
+              "incorrect": [
+                "Kill is my maiden name.",
+                "Kill is my married name."
+              ]
+            }
+          },
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "Really?",
+              "hint": "می پرسه واقعا. پاسخ بده که نمی تونی نام کاملت رو بهش بگی.",
+              "correct": "I can’t tell you my full name.",
+              "incorrect": [
+                "I can’t tell you my family name.",
+                "I can’t tell you my first name."
+              ]
+            }
+          },
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "I already know. It's Beatrix Kiddo.",
+              "hint": "از کجا اون فامیلی تو رو می دونه؟",
+              "correct": "How did you know my last name?",
+              "incorrect": [
+                "How did you know my fist name?",
+                "How did you know my first name?"
+              ]
+            }
+          },
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "My name is much better. Elle Driver.",
+              "hint": "به اسم باحالش می نازه. نام خانوادگی پدریش رو بهش یادآوری کن.",
+              "correct": "Yeah, but your maiden name is Stephanapopolus.",
+              "incorrect": [
+                "Yeah, but your maid name is Stephanapopolus.",
+                "Yeah, but your married name is Stephanapopolus."
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "lessonWords": [
+    {
+      "_id": "999f333c-5f19-4933-8641-f18263598b97",
+      "audio": "https://storage.appewa.com/api/v1/files/45f986aa-9c37-41c0-86ce-0c0945b7a36a.mp3",
+      "origin": "last name",
+      "meanings": {
+        "ru": {
+          "value": [
+            "نام خانوادگی"
+          ]
+        },
+        "fa": {
+          "value": [
+            "نام خانوادگی"
+          ]
+        }
+      },
+      "examples": [
+        "Can I have your last name?"
+      ],
+      "transcription": "lɑːst neɪm\t",
+      "localizedMeanings": [
+        "نام خانوادگی"
+      ]
+    },
+    {
+      "_id": "7e7aa945-cfd3-4942-b01d-2b83904e5192",
+      "audio": "https://storage.appewa.com/api/v1/files/f629c8de-0058-46a6-8115-dad47081d35a.mp3",
+      "origin": "surname",
+      "meanings": {
+        "ru": {
+          "value": [
+            "نام خانوادگی"
+          ]
+        },
+        "fa": {
+          "value": [
+            "نام خانوادگی"
+          ]
+        }
+      },
+      "examples": [
+        "What is your surname?"
+      ],
+      "transcription": "ˈsɜːneɪm",
+      "localizedMeanings": [
+        "نام خانوادگی"
+      ]
+    },
+    {
+      "_id": "8bea683c-8b2b-4f42-85b3-c5235325123a",
+      "origin": "maiden",
+      "examples": [
+        "Let us hear the maiden!"
+      ],
+      "transcription": "ˈmeɪdn",
+      "audio": "https://storage.appewa.com/api/v1/files/9486b092-fbaa-444e-8d31-01d7a89d1286.mp3",
+      "meanings": {
+        "ru": {
+          "value": [
+            "دوشیزه"
+          ]
+        },
+        "fa": {
+          "value": [
+            "دوشیزه"
+          ]
+        }
+      },
+      "localizedMeanings": [
+        "دوشیزه"
+      ]
+    }
+  ],
+  "lessonPhrases": [
+    {
+      "_id": "a9e39ac6-84d1-4ac4-bce4-4cf7902cca28",
+      "origin": "What's your first name?",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "اسم تو چیست (اسمت چیه)؟",
+        "fa": "اسم تو چیست (اسمت چیه)؟"
+      },
+      "number": 1,
+      "localizedTranslation": "اسم تو چیست (اسمت چیه)؟"
+    },
+    {
+      "_id": "1845cd81-bf63-4f28-9c80-efa386e9d125",
+      "origin": "Whose last name is Lannister?",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "نام خانوادگی چه کسی لنیستر است؟",
+        "fa": "نام خانوادگی چه کسی لنیستر است؟"
+      },
+      "number": 2,
+      "localizedTranslation": "نام خانوادگی چه کسی لنیستر است؟"
+    },
+    {
+      "_id": "ff94a35f-c0d0-4df1-9c28-ad91f895ee8d",
+      "origin": "First name, Montgomery. Last name, Montgomery.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "اسم: مونتگمری. فامیلی: مونتگمری.",
+        "fa": "اسم: مونتگمری. فامیلی: مونتگمری."
+      },
+      "number": 3,
+      "localizedTranslation": "اسم: مونتگمری. فامیلی: مونتگمری."
+    },
+    {
+      "_id": "77bb0189-e339-4621-9fef-987ce94b268d",
+      "origin": "Your family name is Tribbiani.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "فامیلی تو تریببیانی است.",
+        "fa": "فامیلی تو تریببیانی است."
+      },
+      "number": 4,
+      "localizedTranslation": "فامیلی تو تریببیانی است."
+    },
+    {
+      "_id": "e1690359-8996-4957-a559-8936844a8fe2",
+      "origin": "My middle name is Antonietta.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "نام میانی من انتُنیتا است.",
+        "fa": "نام میانی من انتُنیتا است."
+      },
+      "number": 5,
+      "localizedTranslation": "نام میانی من انتُنیتا است."
+    },
+    {
+      "_id": "0c41c9c0-6e8c-4823-b22f-ea7306f9513e",
+      "origin": "I can't tell you my full name!",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "من نمی تونم اسم کاملم رو به تو بگم!",
+        "fa": "من نمی تونم اسم کاملم رو به تو بگم!"
+      },
+      "number": 6,
+      "localizedTranslation": "من نمی تونم اسم کاملم رو به تو بگم!"
+    },
+    {
+      "_id": "091853a4-e630-40fd-b8f6-b1682bbd334b",
+      "origin": "He doesn't even have a surname.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "او حتی نام خانوادگی نداره.",
+        "fa": "او حتی نام خانوادگی نداره."
+      },
+      "number": 7,
+      "localizedTranslation": "او حتی نام خانوادگی نداره."
+    },
+    {
+      "_id": "30dc16d5-a548-479b-bb0a-51620026a156",
+      "origin": "Amanda Ripley-McCLaren. Married name, I guess.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "اماندا ریپلی-مک کلارن. حدس می زنم نام خانوادگی متاهلی (بعد از ازدواج) باشه.",
+        "fa": "اماندا ریپلی-مک کلارن. حدس می زنم نام خانوادگی متاهلی (بعد از ازدواج) باشه."
+      },
+      "number": 8,
+      "localizedTranslation": "اماندا ریپلی-مک کلارن. حدس می زنم نام خانوادگی متاهلی (بعد از ازدواج) باشه."
+    },
+    {
+      "_id": "c576cdb1-6fd6-47f7-b3a5-affe37161c44",
+      "origin": "Oh, that's my maiden name.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "اوه، این نام خانوادگی پدری (قبل از ازدواج) من است.",
+        "fa": "اوه، این نام خانوادگی پدری (قبل از ازدواج) من است."
+      },
+      "number": 9,
+      "localizedTranslation": "اوه، این نام خانوادگی پدری (قبل از ازدواج) من است."
+    },
+    {
+      "_id": "d917b472-5187-437e-ad62-42f6f8fa73dc",
+      "origin": "Dahlgren is my maiden name, Frost is my married name.",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "translation": {
+        "ru": "دُلگرن نام خانوادگی پدری من و فراست نام خانوادگی متاهلی من است.",
+        "fa": "دُلگرن نام خانوادگی پدری من و فراست نام خانوادگی متاهلی من است."
+      },
+      "number": 10,
+      "localizedTranslation": "دُلگرن نام خانوادگی پدری من و فراست نام خانوادگی متاهلی من است."
+    }
+  ],
+  "repeatableExercises": [
+    {
+      "_id": "607fefc2-45bd-4aaf-993a-270c948e3fcd",
+      "type": "chooseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "d57e2eed-932f-4549-9231-3a0f930ce7d3",
+          "thumbnail": {
+            "_id": "c845a167-cf0a-4b4e-973e-04020da78880",
+            "xl": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880",
+            "ss": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/c845a167-cf0a-4b4e-973e-04020da78880?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/d57e2eed-932f-4549-9231-3a0f930ce7d3/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "bc32da7c-f48c-48ec-9ba8-72d4e226c2e0",
+            "vp9": "a6359d8c-4720-4a15-9a1a-abc2f650df94"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {}
+      },
+      "content": {
+        "label": "Choose answer with video",
+        "text": "",
+        "hint": "ترجمه جمله ای را که در ویدئو می شنوی، انتخاب کن.",
+        "answers": {
+          "correct": "اسم او ایلان است.",
+          "incorrect": [
+            "فامیلی او ایلان است.",
+            "نام میانی او ایلان است.",
+            "نام مستعار او ایلان است."
+          ]
+        },
+        "meaningsLabel": null
+      }
+    },
+    {
+      "_id": "e40a9025-7553-4c33-9685-88aa2078d577",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "9be941b6-bb22-4ce2-8d35-971dffc05924",
+          "thumbnail": {
+            "_id": "a8df18b1-79dc-4292-a780-8d18d03d2570",
+            "xl": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570",
+            "ss": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/a8df18b1-79dc-4292-a780-8d18d03d2570?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/9be941b6-bb22-4ce2-8d35-971dffc05924/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "53c8e292-00b1-4c53-a5b2-6c3d034d7019",
+            "vp9": "47c12250-bad8-4f95-9d7a-5a9f789be8bc"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "First name: Kobayashi. Last name: Maru.": "https://storage.appewa.com/api/v1/files/1eab3e32-0c2f-4480-8346-29377453706b.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "{First} {name}: Kobayashi. {Last} {name}: Maru.",
+          "textArea": true
+        },
+        "extraBlocks": "{Ferst} {Fist} {Furst} {Lust} {Lost}"
+      }
+    },
+    {
+      "_id": "59c3747c-55fa-44e4-982a-fc36a855eeb1",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "c84c2f3c-fad3-4c46-986d-f33ab0f9263a",
+          "thumbnail": {
+            "_id": "3e12cd15-1bc2-4eb1-a2ee-ce3114be924a",
+            "xl": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a",
+            "ss": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/3e12cd15-1bc2-4eb1-a2ee-ce3114be924a?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/c84c2f3c-fad3-4c46-986d-f33ab0f9263a/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "7588f6e8-f906-4a78-aa9d-35d5e2bd2bcd",
+            "vp9": "10b39827-6bbe-472b-af51-25eb54c009d6"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "What's your last name?": "https://storage.appewa.com/api/v1/files/88c5874e-8c9e-48af-9417-fd7069526674.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "{What's} {your} {last} {name}?",
+          "textArea": true
+        },
+        "extraBlocks": "{less} {loss} {lasse}"
+      }
+    },
+    {
+      "_id": "cfd918d2-58e9-4bda-a9ac-09386971490e",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "Is Landon your last name? Or first name?": "https://storage.appewa.com/api/v1/files/3fba8425-99c8-41c4-a230-37b5dd0c3976.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "لندن - نام خانوادگی توئه؟ یا اسمت؟",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "Is Landon your {last} {name}? Or {first} {name}?"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "3c927369-6aaa-4373-bc0a-454c82f3cacc",
+      "type": "composeWord",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "Jared's last name is Leto.": "https://storage.appewa.com/api/v1/files/0d65f4c9-6311-414f-9e99-7482dd5d1cdb.mp3"
+        }
+      },
+      "content": {
+        "label": "Collect missed word",
+        "text": "Jared's {word} name is Leto.",
+        "hint": "لغت را تشکیل بده.",
+        "answers": {
+          "correct": "last"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "34ff9a80-dac6-4d72-92b1-823f4ba1b79e",
+      "type": "chooseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "621e9c1d-d651-4b0e-addf-842b936e0113",
+          "thumbnail": {
+            "_id": "dc58fab9-fe5a-4db4-9ebc-b854eaccfde6",
+            "xl": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6",
+            "ss": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/dc58fab9-fe5a-4db4-9ebc-b854eaccfde6?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/621e9c1d-d651-4b0e-addf-842b936e0113/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "8771a0cf-7acd-4114-9d05-169083f60b5d",
+            "vp9": "df72eee0-8638-47b4-9914-63d2f241f629"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {}
+      },
+      "content": {
+        "label": "Choose answer with video",
+        "text": "",
+        "hint": "ترجمه جمله ای را که در ویدئو می شنوی، انتخاب کن.",
+        "answers": {
+          "correct": "نام کامل تو چیست؟",
+          "incorrect": [
+            "نام میانی تو چیست؟",
+            "فامیلی تو چیست؟",
+            "نام پدر تو چیست؟"
+          ]
+        },
+        "meaningsLabel": null
+      }
+    },
+    {
+      "_id": "614e5bd2-03c4-40df-99ce-5c26f3c9151e",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "0e0f43be-166a-4554-b230-69d8f3d0bdc5",
+          "thumbnail": {
+            "_id": "3be258ba-8cc6-40ad-978f-f980e6b2b37f",
+            "xl": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f",
+            "ss": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/3be258ba-8cc6-40ad-978f-f980e6b2b37f?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/0e0f43be-166a-4554-b230-69d8f3d0bdc5/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "a0cb82d9-6ec8-4597-a0de-949e3a4c76c2",
+            "vp9": "43841cf6-1cc1-45e9-ae7d-312ebe54c441"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "My family name is Professorberg.": "https://storage.appewa.com/api/v1/files/170c15c2-8061-47bd-8da2-887e66108b1e.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "{My} {family} {name} {is} Professorberg.",
+          "textArea": true
+        },
+        "extraBlocks": "{fammily} {familiar} {familly}"
+      }
+    },
+    {
+      "_id": "250ac3d0-0b43-4c4f-810d-aebdafdca31f",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "1db2c631-07ee-41aa-8927-7d5b6cdf7ea7",
+          "thumbnail": {
+            "_id": "110e2be0-3b73-4d57-bb5f-816c7c46a65f",
+            "xl": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f",
+            "ss": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/110e2be0-3b73-4d57-bb5f-816c7c46a65f?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/1db2c631-07ee-41aa-8927-7d5b6cdf7ea7/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "5230ba76-fa6f-4d63-89da-a9a2e9a60c2c",
+            "vp9": "11786d6c-a44a-40c4-bdd7-b84254f67f14"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "His middle name is Ulysses.": "https://storage.appewa.com/api/v1/files/e63cc8f0-f564-4fe0-9abf-bd5fc70a9ed2.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "His {middle} {name} is Ulysses.",
+          "textArea": true
+        },
+        "extraBlocks": "{midle} {medium} {middel} {medal}"
+      }
+    },
+    {
+      "_id": "3f373182-c3d3-4412-9abf-878e01efa5f8",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "His family name is Corleone.": "https://storage.appewa.com/api/v1/files/9b182ef0-0ff3-4cf3-8842-813a0bb068b1.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "نام خانوادگی او کورلئون است.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "{His} {family} {name} is Corleone."
+        },
+        "extraBlocks": "{middle} {full} {first}"
+      }
+    },
+    {
+      "_id": "dead1948-f273-40d0-9164-f73128422e6a",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "I can't tell you my middle name!": "https://storage.appewa.com/api/v1/files/d96d1b26-c3c7-44c3-a4d3-d0ed30a63743.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "من نام میانی ام را به تو نمی گویم.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "I can't tell you {my} {middle} {name}!"
+        },
+        "extraBlocks": "{full} {second} {family}"
+      }
+    },
+    {
+      "_id": "d94a3771-2e07-4609-a6f3-4eef5acf2af4",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "bceffe32-3a61-4f59-a37e-ec23203029a6",
+          "thumbnail": {
+            "_id": "b81bae3e-fe62-4839-84f5-7c5435b5541d",
+            "xl": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d",
+            "ss": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/b81bae3e-fe62-4839-84f5-7c5435b5541d?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/bceffe32-3a61-4f59-a37e-ec23203029a6/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "d1f5b1b3-949d-4496-8d89-498c551e4038",
+            "vp9": "845f83cb-1ec4-4800-9551-f8e0534f3c4d"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "- Your full name? - William Buyers.": "https://storage.appewa.com/api/v1/files/7b6cdca2-b3e0-448e-bab0-25a3ba41c95c.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "- Your {full} {name}? - William Buyers.",
+          "textArea": true
+        },
+        "extraBlocks": "{fall} {foul} {foll} {fool} {fuel}"
+      }
+    },
+    {
+      "_id": "1c8b99a4-5372-4e93-8689-f35fd2b698ce",
+      "type": "composeWord",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "I don't know Mark's full name.": "https://storage.appewa.com/api/v1/files/ed81c973-c754-4dab-97ee-7dcf50f3f095.mp3"
+        }
+      },
+      "content": {
+        "label": "Collect missed word",
+        "text": "I don't know Mark's {word} name.",
+        "hint": "لغت را تشکیل بده.",
+        "answers": {
+          "correct": "full"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "74ff89af-3901-469a-8161-6991d39f9f56",
+      "type": "chooseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "0c5717eb-ff64-459d-957f-0847f98c4440",
+          "thumbnail": {
+            "_id": "d4054485-f750-43bc-a9f5-fe3db17ddc47",
+            "xl": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47",
+            "ss": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/d4054485-f750-43bc-a9f5-fe3db17ddc47?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/0c5717eb-ff64-459d-957f-0847f98c4440/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "c4e66315-f864-493b-8402-7f5edb5da34b",
+            "vp9": "9d75dc68-2e75-45e0-998c-c8ef6dbb0ac1"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {}
+      },
+      "content": {
+        "label": "Choose answer with video",
+        "text": "",
+        "hint": "ترجمه جمله ای را که در ویدئو می شنوی، انتخاب کن.",
+        "answers": {
+          "correct": "این نام خانوادگی پدری من است.",
+          "incorrect": [
+            "این فامیلی من است!",
+            "این نام خانوادگی متاهلی من است.",
+            "این نام میانی من است!"
+          ]
+        },
+        "meaningsLabel": null
+      }
+    },
+    {
+      "_id": "34c6941c-7364-4ae2-9777-2c400ba8d1d2",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "25836213-c4e3-49f2-bddb-237cfae448cf",
+          "thumbnail": {
+            "_id": "3e40352d-069e-4d6f-a6f4-63b766469002",
+            "xl": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002",
+            "ss": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/3e40352d-069e-4d6f-a6f4-63b766469002?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/25836213-c4e3-49f2-bddb-237cfae448cf/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "343821c6-58b0-47a6-9247-3d400cbbb4d4",
+            "vp9": "482f512c-ef2c-4726-86f0-d91ca927190a"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "Powell was Caroline's maiden name.": "https://storage.appewa.com/api/v1/files/e2ce91b7-b8e3-4b0d-9134-cacd062dcd32.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "Powell was Caroline's {maiden} {name}.",
+          "textArea": true
+        },
+        "extraBlocks": "{maden} {made} {main} {mainen}"
+      }
+    },
+    {
+      "_id": "796abe27-4c6c-454d-9288-052b2d2afbe9",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "5fb24fad-a78f-491f-9ebc-b580eb30b391",
+          "thumbnail": {
+            "_id": "e20c933d-4305-4294-b9b8-9702e74a3bf1",
+            "xl": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1",
+            "ss": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/e20c933d-4305-4294-b9b8-9702e74a3bf1?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/5fb24fad-a78f-491f-9ebc-b580eb30b391/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "3e6c8d5b-0ec7-4440-80dc-808b4d53ab62",
+            "vp9": "ee88331a-e9c3-43a3-8575-b056095a61ee"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "Wallace is the surname of your mother.": "https://storage.appewa.com/api/v1/files/66bed178-faa0-42e7-9d3b-4cfdbb1c252c.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "Wallace is the {surname} of your mother.",
+          "textArea": true
+        },
+        "extraBlocks": "{third} {sirname} {sir name} {surename} {sorname}"
+      }
+    },
+    {
+      "_id": "36538d4a-9768-4465-a94d-f8ec82ebd396",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "Cher doesn't have a surname. She's simply Cher.": "https://storage.appewa.com/api/v1/files/59b421c2-dcf5-4f2c-9edc-c362b27955de.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "شر نام خانوادگی ندارد. فقط شر خالیه.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "Cher doesn't have a {surname}. She's simply Cher."
+        },
+        "extraBlocks": "{maiden name} {married name}"
+      }
+    },
+    {
+      "_id": "0e1001c4-1aa1-4f0b-b53f-0c12e2ab5100",
+      "type": "composeWord",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "My first name is Lara. Croft is my surname.": "https://storage.appewa.com/api/v1/files/0ccc6911-bb66-40ac-91c0-eba9f09bce96.mp3"
+        }
+      },
+      "content": {
+        "label": "Collect missed word",
+        "text": "My first name is Lara. Croft is my {word}.",
+        "hint": "لغت را تشکیل بده.",
+        "answers": {
+          "correct": "surname"
+        },
+        "extraBlocks": ""
+      }
+    },
+    {
+      "_id": "7cd12719-232f-4759-a663-d0e306f8b711",
+      "type": "composePhraseByVideo",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": {
+          "_id": "9aba450d-6e04-4e57-98ef-2bc32e4d244a",
+          "thumbnail": {
+            "_id": "cbe5c2de-4736-4785-b337-f9e1ac84d479",
+            "xl": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479",
+            "ss": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/cbe5c2de-4736-4785-b337-f9e1ac84d479?size=1920x1080"
+          },
+          "playlist": {
+            "medium": "https://video.appewa.com/9aba450d-6e04-4e57-98ef-2bc32e4d244a/medium.m3u8"
+          }
+        },
+        "encodedVideos": {
+          "medium": {
+            "hevc": "6c7a86e2-551f-467d-a43d-2fbddab49fa2",
+            "vp9": "2c6957d6-6a6d-4552-ba44-e71b9fb665dc"
+          }
+        },
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "Cooper... Your married name?": "https://storage.appewa.com/api/v1/files/fe1db216-5ee8-44a4-bc1a-6128cc109978.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by video",
+        "hint": "جمله ای را که در این ویدئو می شنوی تشکیل بده.",
+        "answers": {
+          "correct": "Cooper... Your {married} {name}?",
+          "textArea": true
+        },
+        "extraBlocks": "{maiden} {merry} {maid} {marry} {merried}"
+      }
+    },
+    {
+      "_id": "15c62785-ec1c-41ec-825c-138a86e0a73c",
+      "type": "composePhraseByText",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": null,
+          "user": null
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "I like my married name more.": "https://storage.appewa.com/api/v1/files/64fe33f5-632a-40ee-8de7-314ba6658c3d.mp3"
+        }
+      },
+      "content": {
+        "label": "Compose phrase by text",
+        "text": "من نام خانوادگی متاهلی ام را بیشتر دوست دارم.",
+        "hint": "ترجمه جمله را تشکیل بده.",
+        "answers": {
+          "correct": "I like my {married} {name} more."
+        },
+        "extraBlocks": "{maiden} {wedding} {full} {first}"
+      }
+    },
+    {
+      "_id": "2089d181-8f42-4112-bae7-8405071aa4fb",
+      "type": "dialog",
+      "lessonId": "553a8575-78a5-407c-8f49-e81b9856bbb1",
+      "courseId": "827c7d49-e980-4777-af47-afa1d9576d93",
+      "media": {
+        "video": null,
+        "avatars": {
+          "mate": {
+            "_id": "f1d13aa1-77f5-4461-be23-4c7240d79868",
+            "xl": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868",
+            "ss": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/f1d13aa1-77f5-4461-be23-4c7240d79868?size=1920x1080"
+          },
+          "user": {
+            "_id": "483325d9-4916-45e6-97a2-fbb22d126e90",
+            "xl": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90",
+            "ss": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=320x240",
+            "s": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=640x360",
+            "m": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=1280x720",
+            "l": "https://storage.appewa.com/api/v1/files/483325d9-4916-45e6-97a2-fbb22d126e90?size=1920x1080"
+          }
+        },
+        "images": [],
+        "image": null,
+        "voice": {
+          "I can’t tell you my full name.": "https://storage.appewa.com/api/v1/files/752d8465-21e5-487e-8ba0-07c8ebf683be.mp3",
+          "Yeah, but your maiden name is Stephanapopolus.": "https://storage.appewa.com/api/v1/files/c7208b9f-6736-4e26-8fed-dca0875b9f37.mp3",
+          "How did you know my last name?": "https://storage.appewa.com/api/v1/files/03238c1f-4e64-4836-ad96-68a2e8058e2d.mp3",
+          "Black Mamba, I will kill you.": "https://storage.appewa.com/api/v1/files/f185af9d-aaf0-4cad-ae12-32bc7f6b45c5.mp3",
+          "Really?": "https://storage.appewa.com/api/v1/files/5fa98fb0-172b-46e7-97be-a82c30a63d99.mp3",
+          "Kill is my middle name.": "https://storage.appewa.com/api/v1/files/c299982d-6225-4185-85d2-76ae853c58a3.mp3",
+          "I already know. It's Beatrix Kiddo.": "https://storage.appewa.com/api/v1/files/a6a9e8f8-0562-4eab-8848-fb96c1d81e3a.mp3",
+          "My name is much better. Elle Driver.": "https://storage.appewa.com/api/v1/files/bab78598-731a-480e-85c4-f94e457cc6f3.mp3"
+        }
+      },
+      "content": {
+        "label": "Dialogue",
+        "messages": [
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "Black Mamba, I will kill you.",
+              "hint": "تو رو به مرگ تهدید می کنه. بگو که قتل نام میانی من است.",
+              "correct": "Kill is my middle name.",
+              "incorrect": [
+                "Kill is my maiden name.",
+                "Kill is my married name."
+              ]
+            }
+          },
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "Really?",
+              "hint": "می پرسه واقعا. پاسخ بده که نمی تونی نام کاملت رو بهش بگی.",
+              "correct": "I can’t tell you my full name.",
+              "incorrect": [
+                "I can’t tell you my family name.",
+                "I can’t tell you my first name."
+              ]
+            }
+          },
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "I already know. It's Beatrix Kiddo.",
+              "hint": "از کجا اون فامیلی تو رو می دونه؟",
+              "correct": "How did you know my last name?",
+              "incorrect": [
+                "How did you know my fist name?",
+                "How did you know my first name?"
+              ]
+            }
+          },
+          {
+            "hint": "",
+            "question": "",
+            "answers": {
+              "question": "My name is much better. Elle Driver.",
+              "hint": "به اسم باحالش می نازه. نام خانوادگی پدریش رو بهش یادآوری کن.",
+              "correct": "Yeah, but your maiden name is Stephanapopolus.",
+              "incorrect": [
+                "Yeah, but your maid name is Stephanapopolus.",
+                "Yeah, but your married name is Stephanapopolus."
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "progress": 0.9,
+  "starsEarned": 3,
+  "isComplete": true
+}
