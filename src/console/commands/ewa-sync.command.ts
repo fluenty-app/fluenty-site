@@ -1,6 +1,7 @@
 import { Command, CommandRunner } from 'nest-commander';
 import { Logger } from '@nestjs/common';
 import { EwaSyncService } from '../../core/ewa/ewa-sync.service';
+import { basename } from 'path';
 
 interface CoursesCommandOptions {
   //

@@ -1,3 +1,5 @@
+import { imageResolver } from './image.resolver';
+
 export const lessonResolver = (course, lesson, words, phrases) => {
   return {
     course: course._id,
@@ -7,7 +9,7 @@ export const lessonResolver = (course, lesson, words, phrases) => {
     kind: lesson.kind,
     title: lesson.title,
     difficulty: lesson.difficulty,
-    image: lesson.image,
+    image: imageResolver(lesson.image),
     isAdult: lesson.hasAdultContent,
     isFree: lesson.isFree,
     words: words.map(word => word._id),
