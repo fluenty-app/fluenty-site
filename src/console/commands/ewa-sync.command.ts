@@ -23,6 +23,10 @@ export class EwaSyncCommand extends CommandRunner {
     passedParam: string[],
     options?: CoursesCommandOptions,
   ): Promise<void> {
-    this.ewaSyncService.sync();
+    console.log("Ewa Sync Started.");
+
+    await this.ewaSyncService.sync();
+
+    console.log("Ewa Sync Completed.");
   }
 }

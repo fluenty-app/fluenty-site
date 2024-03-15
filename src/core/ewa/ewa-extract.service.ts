@@ -1,14 +1,12 @@
-import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { EwaService } from './ewa.service';
-import { InjectConnection, InjectModel } from '@nestjs/mongoose';
-import { Connection, Model, Types } from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+import { Model, Types } from 'mongoose';
 import { OriginCourse, OriginCourseDocument } from './schemas/origin-course.schema';
-import { ConfigService } from "@nestjs/config";
-import { createWriteStream } from 'fs';
 
 
 @Injectable()
-export class EwaExtractService implements OnModuleInit {
+export class EwaExtractService {
 
   constructor(
     @InjectModel(OriginCourse.name) private originCoursesModel: Model<OriginCourseDocument>,
@@ -17,13 +15,7 @@ export class EwaExtractService implements OnModuleInit {
     //
   }
 
-  onModuleInit(): any {
-    this.extract()
-  }
-
   async extract() {
-    console.log('Ewa extraction started');
-
     const courses = await this.ewaService.getCourses();
 
     const items = await Promise.all(
@@ -40,13 +32,7 @@ export class EwaExtractService implements OnModuleInit {
       }),
     );
 
-    await this.persist(items);
-
-    // const items = (await this.originCoursesModel.findOne({}, {}, {sort: {_id: -1}})).items;
-
-    await this.download(items);
-
-    console.log('Completed');
+    return await this.persist(items);
   }
 
   async persist(items) {
@@ -55,29 +41,5 @@ export class EwaExtractService implements OnModuleInit {
       items: items,
       createdAt: new Date(),
     });
-  }
-
-  async download(items) {
-    console.log('Download Started');
-
-    items.map((course) => {
-      this.ewaService.downloadImage(course.image);
-
-      this.ewaService.downloadImage(course.backgroundImage);
-
-      course.lessonsData.map((lesson) => {
-        if (!lesson) {
-          return;
-        }
-
-        this.ewaService.downloadImage(lesson.image);
-
-        lesson.exercises.map((exercise) => {
-          this.ewaService.downloadMedia(exercise.media);
-        });
-      });
-    });
-
-    console.log('Download Completed')
   }
 }

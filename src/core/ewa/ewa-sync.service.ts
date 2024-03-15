@@ -1,4 +1,4 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { CoursesService } from '../../components/courses/courses.service';
 import { EwaService } from './ewa.service';
 import { courseResolver } from './resolvers/course.resolver';
@@ -10,11 +10,15 @@ import { phraseResolver } from './resolvers/phrase.resolver';
 import { PhrasesService } from '../../components/phrase/phrases.service';
 import { exerciseResolver } from './resolvers/exercise.resolver';
 import { ExercisesService } from '../../components/exercise/exercises.service';
+import { InjectModel } from '@nestjs/mongoose';
+import { OriginCourse, OriginCourseDocument } from './schemas/origin-course.schema';
+import { Model } from 'mongoose';
 
 @Injectable()
-export class EwaSyncService implements OnModuleInit {
+export class EwaSyncService {
 
   constructor(
+    @InjectModel(OriginCourse.name) private originCoursesModel: Model<OriginCourseDocument>,
     protected readonly ewaService: EwaService,
     protected readonly coursesService: CoursesService,
     protected readonly lessonsService: LessonsService,
@@ -25,28 +29,37 @@ export class EwaSyncService implements OnModuleInit {
     //
   }
 
-  onModuleInit(): any {
-    // this.sync();
-  }
-
   async sync() {
-    const courses = await this.ewaService.getCourses();
+    const courses = await this.getItems();
 
-    await courses.forEach(async ({id}) => {
-      await this.syncCourse(await this.ewaService.getCourse(id));
-    });
+    for (const course of courses) {
+      await this.syncCourse(course);
+    }
+
+    this.ewaService.persistDownload();
   }
+
+  async getItems() {
+    const history = await this.originCoursesModel.findOne(
+      {}, {}, {sort: {_id: -1}},
+    );
+
+    return history.items;
+  }
+
 
   async syncCourse(courseData) {
     const course = await this.coursesService.updateOrCreate(
       courseData._id, courseResolver(courseData),
     );
 
-    courseData.lessons.forEach(async (lessonData) => {
-      const lesson = this.syncLesson(
-        course, await this.ewaService.getLesson(lessonData.id),
-      );
-    });
+    this.ewaService.downloadImage('image', courseData.image);
+
+    this.ewaService.downloadImage('backgroundImage', courseData.backgroundImage);
+
+    for (const lessonData of courseData.lessonsData) {
+      await this.syncLesson(course, lessonData);
+    }
   }
 
   async syncLesson(course, lessonData) {
@@ -71,6 +84,8 @@ export class EwaSyncService implements OnModuleInit {
     const exercises = await Promise.all(
       lessonData.exercises.map((exercisesData) => this.syncExercise(exercisesData, course, lesson)),
     );
+
+    this.ewaService.downloadImage('image', lessonData.image);
   }
 
   syncWord(wordData) {
@@ -85,9 +100,13 @@ export class EwaSyncService implements OnModuleInit {
     );
   }
 
-  syncExercise(exerciseData, course, lesson) {
-    return this.exercisesService.updateOrCreate(
+  async syncExercise(exerciseData, course, lesson) {
+    const exercise = await this.exercisesService.updateOrCreate(
       exerciseData._id, exerciseResolver(exerciseData, course, lesson),
     );
+
+    this.ewaService.downloadMedia(exerciseData.media);
+
+    return exercise;
   }
 }

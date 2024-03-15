@@ -5,6 +5,7 @@ import { DatabaseModule } from '../database/database.module';
 import { ConfigModule } from "../config/config.module";
 import { EwaSyncCommand } from "./commands/ewa-sync.command";
 import { EwaExractCommand } from "./commands/ewa-extract.command";
+import { EwaDownloadCommand } from './commands/ewa-download.command';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { EwaExractCommand } from "./commands/ewa-extract.command";
     BasicCommand,
     EwaSyncCommand,
     EwaExractCommand,
+    EwaDownloadCommand,
   ],
 })
 export class ConsoleModule {

@@ -10,6 +10,7 @@ import { ExercisesModule } from '../../components/exercise/exercises.module';
 import { EwaExtractService } from './ewa-extract.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { OriginCourse, OriginCourseSchema } from './schemas/origin-course.schema';
+import { DownloadService } from './download.service';
 
 @Module({
   imports: [
@@ -32,11 +33,13 @@ import { OriginCourse, OriginCourseSchema } from './schemas/origin-course.schema
     EwaService,
     EwaSyncService,
     EwaExtractService,
+    DownloadService,
   ],
   exports: [
     EwaService,
     EwaSyncService,
     EwaExtractService,
+    DownloadService,
   ],
 })
 export class EwaModule {

@@ -3,7 +3,7 @@ import { ConsoleModule } from './console/console.module';
 import { Logger } from "@nestjs/common";
 
 async function bootstrap() {
-  await CommandFactory.run(ConsoleModule, {
+  await CommandFactory.runWithoutClosing(ConsoleModule, {
     logger: new Logger("Console"),
   });
 }

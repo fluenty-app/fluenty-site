@@ -1,7 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
-import { createWriteStream, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
+import { DownloadService } from './download.service';
 
 
 @Injectable()
@@ -12,6 +12,7 @@ export class EwaService {
 
   constructor(
     protected readonly httpService: HttpService,
+    protected readonly downloadService: DownloadService,
   ) {
     //
   }
@@ -39,7 +40,7 @@ export class EwaService {
       });
   }
 
-  downloadImage(image, basePath = 'images') {
+  downloadImage(tag, image, basePath = 'images') {
     if (!image) {
       return null;
     }
@@ -49,87 +50,48 @@ export class EwaService {
         const filename = image[size]
             .substring(image[size].indexOf(image._id) + 1)
             .replace('?size=', '--')
-          + '.jpeg'
+          + '.jpeg';
 
-        if (existsSync(join(basePath, filename))) {
-          return false;
-        }
-
-        this.httpService.axiosRef
-          .get(image[size], {responseType: 'stream'})
-          .then(
-            response => response.data.pipe(
-              createWriteStream(join(basePath, filename))
-            )
-          )
-          .catch((e) => {
-            console.error("Download Failed: " + image[size]);
-          });
+        return this.downloadService.add(tag, image[size], join(basePath, filename));
       });
   }
 
-  async downloadMedia(media) {
+  downloadMedia(media) {
     if (!media) {
       return null;
     }
 
     if (media.video) {
-      this.downloadImage(media.video.thumbnail);
+      this.downloadImage('mediaThumbnail', media.video.thumbnail);
 
-      if (!existsSync(join('videos', media.video._id, 'medium.m3u8'))) {
-        await this.httpService.axiosRef
-          .get(media.video.playlist.medium, {responseType: 'stream'})
-          .then(
-            response => {
-              mkdirSync(join('videos', media.video._id), {recursive: true});
-
-              response.data.pipe(
-                createWriteStream(join('videos', media.video._id, 'medium.m3u8'))
-              )
-            }
-          )
-          .catch((e) => {
-            console.error("Download Failed: " + media.video.playlist.medium);
-          });
-      }
+      this.downloadService.add('mediaVideo', media.video.playlist.medium, join('videos', media.video._id, 'medium.m3u8'));
     }
 
     if (media.image) {
-      this.downloadImage(media.image);
+      this.downloadImage('mediaImage', media.image);
     }
 
     if (media.avatars.user) {
-      this.downloadImage(media.avatars.user);
+      this.downloadImage('mediaAvatar', media.avatars.user);
     }
 
     if (media.avatars.mate) {
-      this.downloadImage(media.avatars.mate);
+      this.downloadImage('mediaAvatar', media.avatars.mate);
     }
 
     Object.values(media.voice ?? {})
       .map((audio: string) => {
         if (typeof audio != 'string') {
-          return
+          return;
         }
 
-        const filename = audio.substring(audio.lastIndexOf('/') + 1)
+        const filename = audio.substring(audio.lastIndexOf('/') + 1);
 
-        if (existsSync(join('audios', filename))) {
-          return false;
-        }
-
-        this.httpService.axiosRef
-          .get(audio, {responseType: 'stream'})
-          .then(
-            response => {
-              response.data.pipe(
-                createWriteStream(join('audios', filename))
-              )
-            }
-          )
-          .catch((e) => {
-            console.error("Download Failed: " + audio);
-          });
+        this.downloadService.add('mediaAudio', audio, join('audios', filename));
       });
+  }
+
+  persistDownload() {
+    this.downloadService.persist();
   }
 }

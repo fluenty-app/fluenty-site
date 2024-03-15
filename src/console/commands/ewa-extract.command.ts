@@ -23,6 +23,10 @@ export class EwaExractCommand extends CommandRunner {
     passedParam: string[],
     options?: CoursesCommandOptions,
   ): Promise<void> {
-    this.ewaExtractService.extract();
+    console.log('Ewa Extract Started.');
+
+    await this.ewaExtractService.extract();
+
+    console.log('Ewa Extract Completed.');
   }
 }
