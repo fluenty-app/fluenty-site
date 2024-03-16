@@ -1,14 +1,14 @@
 import { basename } from 'path';
-import AppConfig from '../../../config/app.config';
-
-const appConfig = AppConfig();
+import { ConsoleModule } from '../../../console/console.module';
 
 export const imageResolver = (image) => {
+  const cdnUrl = ConsoleModule.configService.get('app.cdnUrl');
+
   return image && {
     id: image.id,
-    s: appConfig.cdnUrl + '/images/' + basename(image.s).replace('?size=', '--') + '.jpeg',
-    m: appConfig.cdnUrl + '/images/' + basename(image.m).replace('?size=', '--') + '.jpeg',
-    l: appConfig.cdnUrl + '/images/' + basename(image.l).replace('?size=', '--') + '.jpeg',
-    xl: appConfig.cdnUrl + '/images/' + basename(image.xl).replace('?size=', '--') + '.jpeg',
+    s: cdnUrl + '/images/' + basename(image.s).replace('?size=', '--') + '.jpeg',
+    m: cdnUrl + '/images/' + basename(image.m).replace('?size=', '--') + '.jpeg',
+    l: cdnUrl + '/images/' + basename(image.l).replace('?size=', '--') + '.jpeg',
+    xl: cdnUrl + '/images/' + basename(image.xl).replace('?size=', '--') + '.jpeg',
   };
 };

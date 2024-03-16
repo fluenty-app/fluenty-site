@@ -12,6 +12,7 @@ import DatabaseConfig from './database.config';
         AppConfig,
         DatabaseConfig,
       ],
+      cache: true,
     }),
   ],
   controllers: [],
