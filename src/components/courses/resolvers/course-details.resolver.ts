@@ -1,4 +1,4 @@
-import { lessonListResolver } from "../../lessons/resolvers/lesson-list.resolver";
+import { lessonListResolver } from '../../lessons/resolvers/lesson-list.resolver';
 
 export const courseDetailsResolver = (course) => {
   return {

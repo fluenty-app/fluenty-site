@@ -1,6 +1,6 @@
-import { wordListResolver } from "../../words/resolvers/word-list.resolver";
-import { phraseListResolver } from "../../phrase/resolvers/phrase-list.resolver";
-import { exerciseListResolver } from "../../exercise/resolvers/exercise-list.resolver";
+import { wordListResolver } from '../../words/resolvers/word-list.resolver';
+import { phraseListResolver } from '../../phrase/resolvers/phrase-list.resolver';
+import { exerciseListResolver } from '../../exercise/resolvers/exercise-list.resolver';
 
 export const lessonDetailsResolver = (lesson) => {
   return {

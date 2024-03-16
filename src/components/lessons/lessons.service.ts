@@ -2,10 +2,10 @@ import { Injectable } from '@nestjs/common';
 import { Model, Types } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { Lesson, LessonDocument } from './schemas/lesson.schema';
-import { SortDirectionEnum } from "../../core/database/sort.direction.enum";
-import { Phrase } from "../phrase/schemas/phrase.schema";
-import { Word } from "../words/schemas/word.schema";
-import { Exercise } from "../exercise/schemas/exercise.schema";
+import { SortDirectionEnum } from '../../core/database/sort.direction.enum';
+import { Phrase } from '../phrase/schemas/phrase.schema';
+import { Word } from '../words/schemas/word.schema';
+import { Exercise } from '../exercise/schemas/exercise.schema';
 
 @Injectable()
 export class LessonsService {

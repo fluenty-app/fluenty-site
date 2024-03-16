@@ -1,7 +1,7 @@
-import { Response } from "./response";
+import { Response } from './response';
 
 export class ErrorResponse extends Response {
-  constructor(message = "", errors = {}) {
+  constructor(message = '', errors = {}) {
     super(null, message, errors);
   }
 }

@@ -1,8 +1,8 @@
 import { CallHandler, ExecutionContext, HttpException, Injectable, NestInterceptor } from '@nestjs/common';
 import { catchError, map, Observable, throwError } from 'rxjs';
-import { Response } from "express";
-import { Response as AppResponse } from "../response/response"
-import { ErrorResponse } from "./error-response";
+import { Response } from 'express';
+import { Response as AppResponse } from '../response/response';
+import { ErrorResponse } from './error-response';
 
 @Injectable()
 export class ResponseInterceptor implements NestInterceptor {
@@ -14,7 +14,7 @@ export class ResponseInterceptor implements NestInterceptor {
       .handle()
       .pipe(
         map((result) => {
-          response.status(200)
+          response.status(200);
 
           return result instanceof AppResponse
             ? result.getBody()
@@ -27,7 +27,7 @@ export class ResponseInterceptor implements NestInterceptor {
             return Promise.resolve(error.response.getBody());
           }
 
-          return throwError(error)
+          return throwError(error);
         }),
       );
   }

@@ -1,7 +1,7 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { LessonsService } from "./lessons.service";
-import { SuccessResponse } from "../../core/response/success-response";
-import { lessonDetailsResolver } from "./resolvers/lesson-details.resolver";
+import { LessonsService } from './lessons.service';
+import { SuccessResponse } from '../../core/response/success-response';
+import { lessonDetailsResolver } from './resolvers/lesson-details.resolver';
 
 @Controller('/lessons')
 export class LessonsController {
@@ -16,7 +16,7 @@ export class LessonsController {
     const lesson = await this.lessonsService.find(lessonId);
 
     return new SuccessResponse({
-      lesson: lessonDetailsResolver(lesson)
+      lesson: lessonDetailsResolver(lesson),
     });
   }
 }

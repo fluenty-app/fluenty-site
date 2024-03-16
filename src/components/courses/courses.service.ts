@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common';
 import { Model, Types } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { Course, CourseDocument } from './schemas/course.schema';
-import { SortDirectionEnum } from "../../core/database/sort.direction.enum";
-import { Lesson } from "../lessons/schemas/lesson.schema";
+import { SortDirectionEnum } from '../../core/database/sort.direction.enum';
+import { Lesson } from '../lessons/schemas/lesson.schema';
 
 @Injectable()
 export class CoursesService {

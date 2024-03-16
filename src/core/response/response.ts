@@ -7,7 +7,7 @@ export class Response {
 
   public status = null;
 
-  constructor(data, message = "", errors?: Record<any, any>) {
+  constructor(data, message = '', errors?: Record<any, any>) {
     this.data = data;
 
     this.message = message;
@@ -44,6 +44,6 @@ export class Response {
       message: this.message,
       data: this.data || undefined,
       errors: this.errors,
-    }
+    };
   }
 }
