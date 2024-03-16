@@ -18,19 +18,21 @@ export class EwaExtractService {
   async extract() {
     const courses = await this.ewaService.getCourses();
 
-    const items = await Promise.all(
-      courses.map(async ({id}) => {
-        const course = await this.ewaService.getCourse(id);
+    const items = [];
 
-        course.lessonsData = await Promise.all(
-          course.lessons.map(
-            (lesson) => this.ewaService.getLesson(lesson._id),
-          ),
+    for (const course of courses) {
+      const courseData = await this.ewaService.getCourse(course.id);
+
+      courseData.lessonsData = [];
+
+      for (const lesson of courseData.lessons) {
+        courseData.lessonsData.push(
+          await this.ewaService.getLesson(lesson._id),
         );
+      }
 
-        return course;
-      }),
-    );
+      items.push(courseData);
+    }
 
     return await this.persist(items);
   }
