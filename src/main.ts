@@ -9,6 +9,10 @@ async function bootstrap() {
     cors: CorsConfig,
   });
 
+  app.use(cookieParser());
+
+  app.useGlobalGuards(new (AuthGuard(['cookie', 'jwt'])));
+
   app.useGlobalInterceptors(new ResponseInterceptor());
 
   const configService: ConfigService = app.get(ConfigService);
