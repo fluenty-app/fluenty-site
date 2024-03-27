@@ -64,7 +64,7 @@ export class DownloadService {
         const videoSource = join(dirname(item.source), 'medium0.ts');
 
         const videoPath = join(dirname(item.downloadPath), 'medium0.ts');
-        console.log(videoSource, videoPath);
+
         await this.httpService.axiosRef
           .get(videoSource, {responseType: 'stream'})
           .then(
