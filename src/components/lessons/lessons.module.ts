@@ -3,12 +3,14 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Lesson, LessonSchema } from './schemas/lesson.schema';
 import { LessonsService } from './lessons.service';
 import { LessonsController } from './lessons.controller';
+import { Progress, ProgressSchema } from './schemas/progress.schema';
 
 
 @Module({
   imports: [
     MongooseModule.forFeature([
       {name: Lesson.name, schema: LessonSchema, collection: Lesson.collection},
+      {name: Progress.name, schema: ProgressSchema, collection: Progress.collection},
     ]),
   ],
   controllers: [

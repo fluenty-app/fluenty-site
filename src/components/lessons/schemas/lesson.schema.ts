@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Types } from 'mongoose';
 import { Image } from '../../image/schemas/image.schema';
+import { Course } from '../../courses/schemas/course.schema';
 
 
 export type LessonDocument = Lesson & Document;
@@ -19,8 +20,10 @@ export class Lesson {
   @Prop()
   originCourseId: string;
 
-  @Prop()
-  course: Types.ObjectId;
+  @Prop({
+    type: Types.ObjectId,
+  })
+  course: Course | Types.ObjectId;
 
   @Prop()
   number: number;
